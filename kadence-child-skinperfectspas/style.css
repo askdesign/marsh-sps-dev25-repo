@@ -15,11 +15,17 @@ Text Domain: kadence-child
 -------------------------------------------------------------- */
 .spa-logo {
 	/* -- SPS logo 308 + 30px padding -- */
-	width: 338px;
+	width: 308px;
+	margin-right: 30px
 }
 
 .site-main-header-inner-wrap {
     min-height: 53px;
     align-items: baseline;
 		padding: 30px 0;
+}
+
+.main-navigation, .secondary-navigation {
+	font-size: 15px;
+	font-size: .9375rem;
 }
