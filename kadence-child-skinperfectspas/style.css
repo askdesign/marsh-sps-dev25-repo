@@ -39,3 +39,9 @@ Text Domain: kadence-child-skinperfectspas
     position: relative;
     color: #ffffff;
 }
+
+/* -- dashicons -- */
+.dashicons-art {
+    height: 26px;
+    font-size: 26px;
+}
