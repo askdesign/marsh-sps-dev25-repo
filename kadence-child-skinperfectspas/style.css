@@ -36,10 +36,15 @@ Text Domain: kadence-child-skinperfectspas
     position: relative;
     color: #ffffff;
 }
+/* -- services -- */
 
-/* -- services subhead -- */
+.servicecategory {
+	font-family: var(--global-body-font-family);
+}
+
 .services-subhd {
 	font-family: var(--global-body-font-family);
  	text-transform: uppercase;
 	color: #016196;
 }
+
