@@ -31,40 +31,23 @@ Text Domain: kadence-child-skinperfectspas
 /* -- header -- */
 
 .site-header-row.site-header-row-center-column {
-    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-columns: 1fr 3fr 1fr;
 }
 
 .site-header-section-center {
     justify-content: start;
 }
 
-.site-main-header-inner-wrap {
-    min-height: 53px;
-    align-items: baseline;
-    padding: 34px 0 26px;
-}
-
-
 /* -- footer -- */
 .site-footer-row.site-footer-row-columns-3 {
     grid-template-columns: minmax(0, 3fr) minmax(0, 2fr) minmax(0, 1fr);
-	align-items: center
+		align-items: center
 }
 
 /* -- dashicons -- */
 .dashicons-art {
-    height: 25px;
-    font-size: 25px;
-    width: 25px;
-}
-
-/* -- flex adjustments -- */
-.base-align {
-    align-items: baseline;
-}
-
-/* -- CMP beauty services hd -- */
-.kadence-column1614_26969e-33 > .kt-inside-inner-col {
-	align-items: baseline;
+  height: 25px;
+  font-size: 25px;
+  width: 25px;
 }
 
