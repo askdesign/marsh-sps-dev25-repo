@@ -58,11 +58,12 @@ Text Domain: kadence-child-skinperfectspas
 /* --- Appearance > Customize > Colors & Fonts > Colors > GLOBAL PALETTE --- */
 
 /* {
-    --global-palette1: #00b2a9 (logo / was #13b4be WN);
+    --global-palette1: #00A49B; (logo / was #00B2A9 WN);
+
     --global-palette2: #64ccc9 (was #46c6d1);
     --global-palette3: #010103;
     --global-palette4: #4e4e4e;
-    --global-palette5: #737678 (was #75787B WN);
+    --global-palette5: #737678 (was #75787B WN)
     --global-palette6: #d7d2cb (was #949597);
     --global-palette7: #f1f1f1;
     --global-palette8: #f4f4f4;
@@ -87,7 +88,7 @@ PAPER WHITE
 RGB 255, 255, 255
 HEX/HTML FFFFFF
 
-PMS COOL GRAY 9 - WN
+PMS COOL GRAY 9 - fixed
 RGB 117, 120, 123
 HEX/HTML 75787B
 CHANGED TO 737678 for WCAG compliance
@@ -96,11 +97,11 @@ PMS WARM GRAY 1
 RGB 215, 210, 203
 HEX/HTML D7D2CB
 
-Green Teal 
+Green Teal - fixed
 PMS 326
 RGB 0, 178, 169
 HEX/HTML 00B2A9
-HEX 00A49B WCAG compliant
+CHANGED TO 00A49B for WCAG compliance
 
 PMS 325
 HEX 64CCC9 (uncoated PMS 325)
@@ -129,6 +130,19 @@ HEX/HTML ECBAA8 */
 
 /* --- CMP Brand Colors --- */
 /* 
+CMP Coral = PMS 486
+RGB 232, 146, 124
+HEX/HTML E8927C (WN)
+
+CMP Coral tint = PMS 488
+RGB 236, 186, 168
+HEX/HTML ECBAA8
+
+PMS COOL GRAY 9 - fixed
+RGB 117, 120, 123
+HEX/HTML 75787B
+CHANGED TO 737678 for WCAG compliance
+
 CMP Pink = PMS 493
 RGB 220, 134, 153
 HEX/HTML DC8699
@@ -137,13 +151,13 @@ CMP Pink tint = PMS 502
 RGB 229, 186, 193
 HEX/HTML E5BAC1
 
-PMS COOL GRAY 9
-RGB 117, 120, 123
-HEX/HTML 75787B
-
 PMS WARM GRAY 4
 RGB 182, 173, 165
-HEX/HTML B6ADA5 */
+HEX/HTML B6ADA5 
+
+PMS WARM GRAY 1
+RGB 215, 210, 203
+HEX/HTML D7D2CB */
 
 /* --- ADDITIONAL COLORS --- */
 /* 
