@@ -31,23 +31,123 @@ Text Domain: kadence-child-skinperfectspas
 /* -- header -- */
 
 .site-header-row.site-header-row-center-column {
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 1fr 4fr 1fr;
 }
 
 .site-header-section-center {
     justify-content: start;
 }
 
+.site-main-header-inner-wrap {
+    min-height: 53px;
+    align-items: baseline;
+    padding: 34px 0 26px;
+}
+
+
 /* -- footer -- */
 .site-footer-row.site-footer-row-columns-3 {
     grid-template-columns: minmax(0, 3fr) minmax(0, 2fr) minmax(0, 1fr);
-		align-items: center
+	align-items: center
 }
 
 /* -- dashicons -- */
 .dashicons-art {
-  height: 25px;
-  font-size: 25px;
-  width: 25px;
+    height: 25px;
+    font-size: 25px;
+    width: 25px;
 }
+
+/* -- flex adjustments -- */
+.base-align {
+    align-items: baseline;
+}
+
+
+
+/* -- CMP beauty services hd -- */
+.kadence-column1614_26969e-33 > .kt-inside-inner-col {
+	align-items: baseline;
+}
+
+/* -- Services head overlap image -- */
+.colhd-overlap-image-resize,
+.colhd-overlap-image {
+	padding-right: 0;
+}
+
+/* -- Skin Services images to come -- */
+
+/* -- Beauty Services images -- */
+.kadence-column670_a181fa-a8 /* -- lam & tint -- */,
+.kadence-column670_f03469-87 /* -- body -- */,
+.kadence-column670_fd608a-29 /* -- brows -- */,
+.kadence-column670_28ae00-28 /* -- eyes -- */,
+.kadence-column670_7227b2-8d /* -- lips -- */,
+.kadence-column670_398afe-50 /* -- perm makeup removal -- */
+{
+	padding-right: 8rem;
+}	
+
+
+/* -- MEDIA QUERIES -- */
+/* -- Kadence Theme Default Widths 
+    --global-content-width: 1290px;
+    --global-content-wide-width: calc(1290px + 230px);
+    --global-content-narrow-width: 842px; 
+    -- */
+
+/* Desktops, laptops and iPads (landscape) ----- */
+
+@media only screen and (max-width: 1139px) {
+	
+}
+	
+/* iPads (portrait) --------------------- */
+
+@media only screen and (max-width: 1024px) {
+
+	
+}
+
+/* mobile device 960 --------------------- */
+@media only screen and (max-width: 960px) {
+
+
+}
+
+
+/* iPhones (portrait and landscape) ----- */
+
+@media only screen and (max-width: 767px) {
+	
+	
+}
+
+/* Kindle Fire & Tablets ---------------- */
+
+@media only screen and (max-width: 603px) {
+
+
+}
+
+
+/* Mobile L (portrait) ----------------- */
+
+@media only screen and (max-width: 425px) {
+	
+	
+}
+
+/* Mobile M / iPhones ------------------ */
+
+@media only screen and (max-width: 375px) {
+
+
+}
+
+
+	
+	
+
 
