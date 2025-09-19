@@ -70,21 +70,24 @@ Text Domain: kadence-child-skinperfectspas
 	align-items: baseline;
 }
 
-/* -- Services head overlap image -- */
-.colhd-overlap-image-resize,
-.colhd-overlap-image {
-	padding-right: 0;
+
+/* -- Services images - mobile adjustments tk at 768 breakpt -- */
+.colhd-overlap-image-wrap > .kt-row-column-wrap {
+	
 }
 
-/* -- Skin Services images to come -- */
+/* -- Services images - mobile adjustments tk at 768 breakpt -- */
+.colhd-overlap-image-lft {
+	
+}
+
+/* -- Services images - mobile adjustments tk at 768 breakpt -- */
+.colhd-overlap-image-rgt-no-pad {
+	
+}
 
 /* -- Beauty Services images -- */
-.kadence-column670_a181fa-a8 /* -- lam & tint -- */,
-.kadence-column670_f03469-87 /* -- body -- */,
-.kadence-column670_fd608a-29 /* -- brows -- */,
-.kadence-column670_28ae00-28 /* -- eyes -- */,
-.kadence-column670_7227b2-8d /* -- lips -- */,
-.kadence-column670_398afe-50 /* -- perm makeup removal -- */
+.colhd-overlap-image-rgt
 {
 	padding-right: 8rem;
 }	
@@ -145,9 +148,5 @@ Text Domain: kadence-child-skinperfectspas
 
 
 }
-
-
-	
-	
 
 
