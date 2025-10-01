@@ -51,7 +51,7 @@ Text Domain: kadence-child-skinperfectspas
 	align-items: center
 }
 
-/* -- dashicons -- */
+/* -- dashicons - for beauty page alternatives -- */
 .dashicons-art {
     height: 25px;
     font-size: 25px;
@@ -71,82 +71,11 @@ Text Domain: kadence-child-skinperfectspas
 }
 
 
-/* -- Services images - mobile adjustments tk at 768 breakpt -- */
-.colhd-overlap-image-wrap > .kt-row-column-wrap {
-	
+/* -- MEDIA QUERIES that need higher specificity than the stylesheet -- */
+@media screen and (max-width: 1024px) {
+.home-cta > .kt-row-column-wrap {
+    column-gap: 1.5rem;
+    row-gap: 1.5rem;
 }
 
-/* -- Services images - mobile adjustments tk at 768 breakpt -- */
-.colhd-overlap-image-lft {
-	
 }
-
-/* -- Services images - mobile adjustments tk at 768 breakpt -- */
-.colhd-overlap-image-rgt-no-pad {
-	
-}
-
-/* -- Beauty Services images -- */
-.colhd-overlap-image-rgt
-{
-	padding-right: 8rem;
-}	
-
-
-/* -- MEDIA QUERIES -- */
-/* -- Kadence Theme Default Widths 
-    --global-content-width: 1290px;
-    --global-content-wide-width: calc(1290px + 230px);
-    --global-content-narrow-width: 842px; 
-    -- */
-
-/* Desktops, laptops and iPads (landscape) ----- */
-
-@media only screen and (max-width: 1139px) {
-	
-}
-	
-/* iPads (portrait) --------------------- */
-
-@media only screen and (max-width: 1024px) {
-
-	
-}
-
-/* mobile device 960 --------------------- */
-@media only screen and (max-width: 960px) {
-
-
-}
-
-
-/* iPhones (portrait and landscape) ----- */
-
-@media only screen and (max-width: 767px) {
-	
-	
-}
-
-/* Kindle Fire & Tablets ---------------- */
-
-@media only screen and (max-width: 603px) {
-
-
-}
-
-
-/* Mobile L (portrait) ----------------- */
-
-@media only screen and (max-width: 425px) {
-	
-	
-}
-
-/* Mobile M / iPhones ------------------ */
-
-@media only screen and (max-width: 375px) {
-
-
-}
-
-

@@ -3,7 +3,7 @@ Theme Name: Kadence Child SkinPerfectSpas
 Theme URI: https://www.kadencewp.com/kadence-theme/
 Template: kadence
 Author: Anne S. Katzeff
-Author URI: https://www.kadencewp.com/
+Author URI: https://www.askdesign.biz
 Description: A child theme for SPS, based on the Kadence Theme.
 Version: 1.0.0
 License: GNU General Public License v3.0 (or later)
@@ -14,7 +14,7 @@ Text Domain: kadence-child-skinperfectspas
 /* Theme customization starts here
 -------------------------------------------------------------- */
 
-/* --- STYLESHEET ONLY --- */
+/* --- STYLESHEET - see more in Appearance > Customize > Additional CSS --- */
 
 .spa-logo {
 	/* -- SPS logo 308 + 30px padding -- */
@@ -54,117 +54,140 @@ Text Domain: kadence-child-skinperfectspas
 	position: relative;
 }
 
-/* --- COLOR PALETTE - For reference --- */
-/* --- Appearance > Customize > Colors & Fonts > Colors > GLOBAL PALETTE --- */
+/* -- Services / Beauty Services images -- */
+.colhd-overlap-image-rgt {
+	padding-right: 8rem;
+}	
 
-/* {
-    --global-palette1: #00A49B; (logo / was #00B2A9 WN);
 
-    --global-palette2: #64ccc9 (was #46c6d1);
-    --global-palette3: #010103;
-    --global-palette4: #4e4e4e;
-    --global-palette5: #737678 (was #75787B WN)
-    --global-palette6: #d7d2cb (was #949597);
-    --global-palette7: #f1f1f1;
-    --global-palette8: #f4f4f4;
-    --global-palette9: #ffffff;
-    --global-palette9rgb: 255, 255, 255;
-    --global-palette-highlight: var(--global-palette1);
-    --global-palette-highlight-alt: var(--global-palette2);
-    --global-palette-highlight-alt2: var(--global-palette9);
-    --global-palette-btn-bg: var(--global-palette1);
-    --global-palette-btn-bg-hover: var(--global-palette2);
-    --global-palette-btn: var(--global-palette9);
-    --global-palette-btn-hover: var(--global-palette9);
-} */
 
-/* --- SPS Brand Colors - Some are no WCAG-compliant, so we tweaked them --- */
-/* --- Tweaked Brand Colors are noted --- */
+/* -- MEDIA QUERIES -- no longer necessary to include "only" after media call */
+/* -- Kadence Theme Default Widths = KTDW
+    --global-content-width: 1290px;
+    --global-content-wide-width: calc(1290px + 230px);
+    --global-content-narrow-width: 842px; 
+    -- */
 
-/* Primary Colors
+/* -- Google Tools = G -- /
 
-Neutrals
-PAPER WHITE
-RGB 255, 255, 255
-HEX/HTML FFFFFF
 
-PMS COOL GRAY 9 - fixed
-RGB 117, 120, 123
-HEX/HTML 75787B
-CHANGED TO 737678 for WCAG compliance
+/* -- KTDW global-content-wide-width -- */
 
-PMS WARM GRAY 1
-RGB 215, 210, 203
-HEX/HTML D7D2CB
+@media screen and (max-width: 1520px) {
 
-Green Teal - fixed
-PMS 326
-RGB 0, 178, 169
-HEX/HTML 00B2A9
-CHANGED TO 00A49B for WCAG compliance
+	
+}
 
-PMS 325
-HEX 64CCC9 (uncoated PMS 325)
+/* -- Laptop L - G -- */
+@media screen and (max-width: 1440px) {
+	
+}
 
-SPS logo hex = #00afaa */
+/* -- KTDW global-content-width -- */
 
-/* Secondary Colors
+@media screen and (max-width: 1290px) {
 
-Greens / Blues
-PMS 629
-RGB 155, 211, 221
-HEX/HTML 9BD3DD
+	
+}
 
-PMS 647
-RGB 35, 97, 146
-HEX/HTML 236192
+/* -- Laptop -- */
 
-PMS 544
-RGB 189, 214, 230
-HEX/HTML BDD6E6
+@media screen and (max-width: 1280px) {
 
-Accent
-PMS 488
-RGB 236, 186, 168
-HEX/HTML ECBAA8 */
+	
+}
 
-/* --- CMP Brand Colors --- */
-/* 
-CMP Coral = PMS 486
-RGB 232, 146, 124
-HEX/HTML E8927C (WN)
+/* Laptop L - G / iPads (portrait) -- */
 
-CMP Coral tint = PMS 488
-RGB 236, 186, 168
-HEX/HTML ECBAA8
+@media screen and (max-width: 1024px) {
 
-PMS COOL GRAY 9 - fixed
-RGB 117, 120, 123
-HEX/HTML 75787B
-CHANGED TO 737678 for WCAG compliance
+	
+}
 
-CMP Pink = PMS 493
-RGB 220, 134, 153
-HEX/HTML DC8699
+/* mobile device -- */
+@media screen and (max-width: 960px) {
 
-CMP Pink tint = PMS 502
-RGB 229, 186, 193
-HEX/HTML E5BAC1
 
-PMS WARM GRAY 4
-RGB 182, 173, 165
-HEX/HTML B6ADA5 
+}
 
-PMS WARM GRAY 1
-RGB 215, 210, 203
-HEX/HTML D7D2CB */
+/* -- KTDW global-content-narrow-width -- */
 
-/* --- ADDITIONAL COLORS --- */
-/* 
-Cool
-blue - #1C4579               #236192               
-blue -  236192 PMS 647 (was #016196)                            
-lavendar - #5C678D                 
-lavendar - #6E7FB5
-moss - #ACCACC             #98d3dd 
-moss - #E5F7F8             #bdd6e6  */
+@media screen and (max-width: 842px) {
+
+	
+}
+
+
+
+
+/* Kindle -- */
+@media screen and (max-width: 800px) {
+
+
+}
+
+
+
+/* Tablet - G / iPhones (portrait and landscape) ----- */
+
+@media screen and (max-width: 768px) {
+	
+/* -- Services images - mobile adjustments tk at 768 breakpt -- */
+.colhd-overlap-image-wrap > .kt-row-column-wrap {
+    
+}
+
+/* -- Services images - mobile adjustments tk at 768 breakpt -- */
+.colhd-overlap-image-lft {
+	
+}
+
+/* -- Services / Beauty Services images -- */
+.colhd-overlap-image-rgt {
+	
+}	
+
+/* -- Services images - mobile adjustments tk at 768 breakpt -- */
+.colhd-overlap-image-rgt-no-pad {
+	
+}
+	
+}
+
+
+/* Kindle Fire & Tablets ---------------- */
+
+@media screen and (max-width: 600px) {
+
+
+}
+
+/* Tablet ---------------- */
+
+@media screen and (max-width: 480px) {
+
+
+}
+
+
+/* Mobile L - G (portrait) ----------------- */
+
+@media screen and (max-width: 425px) {
+	
+	
+}
+
+/* Mobile M - G / iPhones ------------------ */
+
+@media screen and (max-width: 375px) {
+
+
+}
+
+/* Mobile M - G / iPhones ------------------ */
+
+@media screen and (max-width: 320px) {
+
+
+}
+
