@@ -15,6 +15,10 @@ Text Domain: kadence-child-skinperfectspas
 -------------------------------------------------------------- */
 
 /* --- STYLESHEET - see more in Appearance > Customize > Additional CSS --- */
+/* -- 2nd nav -- */
+.menu-item-2706 {
+    display: none;
+}
 
 .spa-logo {
 	/* -- SPS logo 308 + 30px padding -- */
@@ -97,10 +101,27 @@ Text Domain: kadence-child-skinperfectspas
 	
 }
 
+
+/* -- Mobile Nav Breakpoint -- */
+
+@media screen and (max-width: 1139px) {
+/* -- 2nd nav displays on mobile -- */
+.menu-item-2706 {
+    display: block;
+}
+
+	
+}
+
 /* Laptop L - G / iPads (portrait) -- */
 
 @media screen and (max-width: 1024px) {
 
+
+/* -- FOOTER -- */
+.site-container .site-middle-footer-inner-wrap {
+    padding-bottom: 1.5rem;
+}
 	
 }
 
