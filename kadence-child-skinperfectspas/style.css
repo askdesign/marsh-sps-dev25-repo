@@ -123,6 +123,30 @@ Text Domain: kadence-child-skinperfectspas
     padding-bottom: 1.5rem;
 }
 	
+
+/* -- SERVICES images -- */
+.colhd-overlap-image-wrap > .kt-row-column-wrap {
+    
+}
+
+/* -- SERVICES images -- */
+.colhd-overlap-image-wrap .colhd-overlap-image-lft {
+    margin-right: -30px;
+    margin-left: 70px;
+}	
+
+
+/* -- SKIN / BEAUTY Services images -- */
+.colhd-overlap-image-wrap .colhd-overlap-image-rgt {
+	
+}	
+
+/* -- SERVICES images -- */
+.colhd-overlap-image-wrap .colhd-overlap-image-rgt-no-pad {
+	margin-right: 70px;
+    margin-left: -30px;
+}
+
 }
 
 /* mobile device -- */
@@ -153,25 +177,7 @@ Text Domain: kadence-child-skinperfectspas
 
 @media screen and (max-width: 768px) {
 	
-/* -- Services images - mobile adjustments tk at 768 breakpt -- */
-.colhd-overlap-image-wrap > .kt-row-column-wrap {
-    
-}
 
-/* -- Services images - mobile adjustments tk at 768 breakpt -- */
-.colhd-overlap-image-lft {
-	
-}
-
-/* -- Services / Beauty Services images -- */
-.colhd-overlap-image-rgt {
-	
-}	
-
-/* -- Services images - mobile adjustments tk at 768 breakpt -- */
-.colhd-overlap-image-rgt-no-pad {
-	
-}
 	
 }
 
