@@ -122,12 +122,7 @@ Text Domain: kadence-child-skinperfectspas
 .site-container .site-middle-footer-inner-wrap {
     padding-bottom: 1.5rem;
 }
-	
 
-/* -- SERVICES images -- */
-.colhd-overlap-image-wrap > .kt-row-column-wrap {
-    
-}
 
 /* -- SERVICES images -- */
 .colhd-overlap-image-wrap .colhd-overlap-image-lft {
@@ -138,8 +133,22 @@ Text Domain: kadence-child-skinperfectspas
 
 /* -- SKIN / BEAUTY Services images -- */
 .colhd-overlap-image-wrap .colhd-overlap-image-rgt {
-	
+	margin-right: 70px;
+    margin-left: -30px;
+	padding-right: 2rem;
 }	
+
+.tri-colhd-overlap-image-wrap .colhd-overlap-image-lft-1 {
+	margin-right: -30px;
+	margin-left: 70px;
+}
+
+
+.tri-colhd-overlap-image-wrap .colhd-overlap-image-rgt-2 {
+	margin-right: 30px;
+	margin-left: -30px;
+}
+
 
 /* -- SERVICES images -- */
 .colhd-overlap-image-wrap .colhd-overlap-image-rgt-no-pad {

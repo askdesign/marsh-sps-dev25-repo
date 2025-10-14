@@ -17,16 +17,6 @@ Text Domain: kadence-child-skinperfectspas
 /* --- Additional CSS --- */
 
 /** place into style.css, test, then delete once the cache resolves **/
-.main-navigation, .secondary-navigation,
-.site-footer p {
-	font-size: 15px;
-	font-size: .9375rem;
-}
-
-.site-footer-section {
-    position: relative;
-    color: #ffffff;
-}
 
 /* -- header -- */
 
