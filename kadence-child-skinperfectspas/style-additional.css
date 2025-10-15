@@ -15,8 +15,8 @@ Text Domain: kadence-child-skinperfectspas
 -------------------------------------------------------------- */
 
 /* --- Additional CSS --- */
-
 /** place into style.css, test, then delete once the cache resolves **/
+
 
 /* -- header -- */
 
@@ -33,6 +33,7 @@ Text Domain: kadence-child-skinperfectspas
     align-items: baseline;
     padding: 34px 0 26px;
 }
+
 
 
 /* -- footer -- */
@@ -53,8 +54,6 @@ Text Domain: kadence-child-skinperfectspas
     align-items: baseline;
 }
 
-
-
 /* -- CMP beauty services hd -- */
 .kadence-column1614_26969e-33 > .kt-inside-inner-col {
 	align-items: baseline;
@@ -62,17 +61,26 @@ Text Domain: kadence-child-skinperfectspas
 
 
 /* -- MEDIA QUERIES that need higher specificity than the stylesheet -- */
-@media screen and (max-width: 1024px) {
 
-/* -- FOOTER -- */
+/* -- Laptop L - G -- */
+@media screen and (max-width: 1440px) {
+    
+/* -- HOME -- */
 
-.footer-widget-area.content-align-right .footer-social-inner-wrap {
-    justify-content: center;
+.home-hero .kt-row-column-wrap {
+    min-height: 880px;
 }
 
+
+}
+	
+
+@media screen and (max-width: 1024px) {
+	
 /* -- HOME -- */
+	
 .home-hero .kt-row-column-wrap {
-    min-height: 768px;
+    min-height: 604px;
 }
 	
 .home-cta .kt-row-column-wrap {
@@ -88,6 +96,137 @@ Text Domain: kadence-child-skinperfectspas
 .home-cta .kt-inside-inner-col {
     min-height: 510px;
 }
+
+/* -- FOOTER -- */
+
+.footer-widget-area.content-align-right .footer-social-inner-wrap {
+    justify-content: center;
+}
+
+	
+}
+
+/* mobile device -- */
+@media screen and (max-width: 960px) {
+
+/* -- HOME -- */
+
+.home-hero .kt-row-column-wrap {
+    min-height: 562px;
+}
+
+
+/* -- HEADS AND TEXT -- */
+h1 {
+	font-size: 28px;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+
+h4 {
+	font-size: 18px;
+}
+
+h5 {
+	font-size: 16px;
+}
+
+
+h6 {
+	font-size: 16px;
+}
+
+
+body {
+	font-size: 16px;
+}
+
+}
+
+
+/* -- KTDW global-content-narrow-width -- */
+
+@media screen and (max-width: 842px) {
+
+/* -- HOME -- */
+
+.home-hero .kt-row-column-wrap {
+    min-height: 482px;
+}
+
+	
+}
+
+
+
+/* Kindle -- */
+@media screen and (max-width: 800px) {
+
+/* -- HOME -- */
+
+.home-cta .kt-row-column-wrap {
+    column-gap: 1.5rem;
+    row-gap: 1.5rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.home-cta > .kt-row-column-wrap > *:nth-child(3n of *:not(style)) {
+    grid-column: 1 / -1;
+}
+
+}
+
+
+
+/* Tablet - G / iPhones (portrait and landscape) ----- */
+
+@media screen and (max-width: 768px) {
+	
+
+	
+}
+
+
+/* Kindle Fire & Tablets ---------------- */
+
+@media screen and (max-width: 600px) {
+
+
+}
+
+/* Tablet ---------------- */
+
+@media screen and (max-width: 480px) {
+
+
+}
+
+
+/* Mobile L - G (portrait) ----------------- */
+
+@media screen and (max-width: 425px) {
+	
+	
+}
+
+/* Mobile M - G / iPhones ------------------ */
+
+@media screen and (max-width: 375px) {
+
+
+}
+
+/* Mobile M - G / iPhones ------------------ */
+
+@media screen and (max-width: 320px) {
+
 
 }
 

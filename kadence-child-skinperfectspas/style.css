@@ -84,8 +84,14 @@ Text Domain: kadence-child-skinperfectspas
 
 /* -- Laptop L - G -- */
 @media screen and (max-width: 1440px) {
-	
+/* -- HOME -- */
+.home-hero.kb-row-layout-id11_7164ca-20 {
+	background-position: 0 -5rem;
 }
+
+
+}
+	
 
 /* -- KTDW global-content-width -- */
 
@@ -117,6 +123,7 @@ Text Domain: kadence-child-skinperfectspas
 
 @media screen and (max-width: 1024px) {
 
+/* -- HOME -- */
 
 /* -- FOOTER -- */
 .site-container .site-middle-footer-inner-wrap {
@@ -168,7 +175,37 @@ Text Domain: kadence-child-skinperfectspas
 
 @media screen and (max-width: 842px) {
 
-	
+/* -- SERVICES images -- */
+.colhd-overlap-image-wrap .colhd-overlap-image-lft {
+    margin-right: -30px;
+    margin-left: 35px;
+}
+
+/* -- SKIN / BEAUTY Services images -- */
+.colhd-overlap-image-wrap .colhd-overlap-image-rgt {
+	margin-right: 35px;
+    margin-left: -30px;
+	padding-right: 0rem;
+}	
+
+.tri-colhd-overlap-image-wrap .colhd-overlap-image-lft-1 {
+	margin-right: -30px;
+	margin-left: 35px;
+}
+
+
+.tri-colhd-overlap-image-wrap .colhd-overlap-image-rgt-2 {
+	margin-right: 15px;
+	margin-left: -30px;
+}
+
+
+/* -- SERVICES images -- */
+.colhd-overlap-image-wrap .colhd-overlap-image-rgt-no-pad {
+	margin-right: 35px;
+    margin-left: -30px;
+}
+
 }
 
 
