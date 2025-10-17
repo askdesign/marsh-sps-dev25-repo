@@ -45,6 +45,7 @@ Text Domain: kadence-child-skinperfectspas
 
 .servicecategory {
 	font-family: var(--global-body-font-family);
+	font-size: var(--wp--preset--font-size--large)
 }
 
 .services-subhd {
@@ -205,6 +206,7 @@ Text Domain: kadence-child-skinperfectspas
 	margin-right: 35px;
     margin-left: -30px;
 }
+
 
 }
 
