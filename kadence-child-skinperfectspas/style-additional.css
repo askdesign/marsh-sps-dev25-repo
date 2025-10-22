@@ -192,7 +192,7 @@ body {
 /* Tablet - G / iPhones (portrait and landscape) ----- */
 
 @media screen and (max-width: 768px) {
-	
+
 
 	
 }
@@ -202,6 +202,15 @@ body {
 
 @media screen and (max-width: 600px) {
 
+/* -- HOME -- */
+
+.home-hero .kt-row-column-wrap {
+    min-height: 322px;
+}
+
+.child-3 .kt-inside-inner-col {
+    min-height: 360px;
+}
 
 }
 

@@ -226,6 +226,37 @@ Text Domain: kadence-child-skinperfectspas
 @media screen and (max-width: 768px) {
 	
 
+/* -- SERVICES images -- */
+.colhd-overlap-image-wrap .colhd-overlap-image-lft {
+    margin-right: -30px;
+    margin-left: 15px;
+}
+
+/* -- SKIN / BEAUTY Services images -- */
+.colhd-overlap-image-wrap .colhd-overlap-image-rgt {
+	margin-right: 15px;
+    margin-left: -30px;
+	padding-right: 0rem;
+}	
+
+.tri-colhd-overlap-image-wrap .colhd-overlap-image-lft-1 {
+	margin-right: -30px;
+	margin-left: 15px;
+}
+
+
+.tri-colhd-overlap-image-wrap .colhd-overlap-image-rgt-2 {
+	margin-right: 8px;
+	margin-left: -30px;
+}
+
+
+/* -- SERVICES images -- */
+.colhd-overlap-image-wrap .colhd-overlap-image-rgt-no-pad {
+	margin-right: 15px;
+    margin-left: -30px;
+}
+
 	
 }
 
