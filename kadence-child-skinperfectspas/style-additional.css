@@ -232,6 +232,20 @@ body {
 
 @media screen and (max-width: 480px) {
 
+/* -- HOME -- */
+
+.home-hero .kt-row-column-wrap {
+    min-height: 242px;
+}
+
+.home-cta .kt-row-column-wrap {
+    grid-template-columns: minmax(0, 1fr);
+}
+
+.home-cta .kt-inside-inner-col {
+    min-height: 0px;
+}
+
 
 }
 

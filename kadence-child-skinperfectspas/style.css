@@ -300,6 +300,10 @@ Text Domain: kadence-child-skinperfectspas
 	max-width: 82%;
 }
 
+.tri-col-to-one-image {
+	padding-right: var(--global-kb-spacing-lg, 3rem);
+    padding-left: var(--global-kb-spacing-lg, 3rem);
+}
 
 }
 
@@ -307,6 +311,13 @@ Text Domain: kadence-child-skinperfectspas
 
 @media screen and (max-width: 480px) {
 
+h3.page-tagline {
+	padding: 0 4.25rem;
+}
+
+h3.page-tagline-long {
+    padding: 0px 5.7rem;
+}
 
 }
 
