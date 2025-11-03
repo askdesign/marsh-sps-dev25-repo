@@ -55,8 +55,15 @@ Text Domain: kadence-child-skinperfectspas
 }
 
 /* -- main page heads -- */
-.topline-overlap {
+h2.page-title {
 	position: relative;
+	font-size: 170px;
+	line-height: 68px;
+}
+
+h2.page-subtitle {
+	font-size: 90px;
+	line-height: 80px;
 }
 
 /* -- Services / Beauty Services images -- */
@@ -127,6 +134,17 @@ Text Domain: kadence-child-skinperfectspas
 @media screen and (max-width: 1024px) {
 
 /* -- HOME -- */
+
+/* -- main page heads -- */
+
+h2.page-title {
+	font-size: 96px;
+}
+
+h2.page-subtitle {
+    font-size: var(--global-kb-font-size-xxl, 4rem);
+    line-height: 46px;
+}
 
 /* -- FOOTER -- */
 .site-container .site-middle-footer-inner-wrap {
@@ -223,7 +241,17 @@ Text Domain: kadence-child-skinperfectspas
 /* Tablet - G / iPhones (portrait and landscape) ----- */
 
 @media screen and (max-width: 768px) {
-	
+
+/* -- main page heads -- */
+
+h2.page-title {
+	font-size: 86px;
+}
+
+h2.page-subtitle {
+    font-size: var(--global-kb-font-size-xl, 3rem);
+    line-height: 36px;
+}
 
 /* -- SERVICES images -- */
 .colhd-overlap-image-wrap .colhd-overlap-image-lft {
@@ -337,6 +365,15 @@ h3.page-tagline-long {
 
 @media screen and (max-width: 375px) {
 
+/* -- main page heads -- */
+
+h2.page-title {
+	font-size: 75px;
+}
+
+h2.page-subtitle {
+	font-size: var(--global-kb-font-size-xl, 3rem);
+}
 
 }
 
