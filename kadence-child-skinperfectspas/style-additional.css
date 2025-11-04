@@ -97,6 +97,7 @@ Text Domain: kadence-child-skinperfectspas
     min-height: 510px;
 }
 
+
 /* -- FOOTER -- */
 
 .footer-widget-area.content-align-right .footer-social-inner-wrap {
@@ -172,11 +173,9 @@ body {
 /* -- HOME -- */
 
 .home-cta .kt-row-column-wrap {
-    column-gap: 1.5rem;
-    row-gap: 1.5rem;
     grid-template-columns: repeat(2, minmax(0, 1fr));
 }
-
+	
 .home-cta > .kt-row-column-wrap > *:nth-child(3n of *:not(style)) {
     grid-column: 1 / -1;
 }
@@ -190,14 +189,16 @@ body {
 /* Tablet - G / iPhones (portrait and landscape) ----- */
 @media screen and (max-width: 768px) {
 
-
-	
+/* -- Logo -- */
+.site-branding a.brand img {
+    max-width: 242px;
 }
 
+.wp-block-image img.wp-image-734 {
+    max-width: 242px;
+}
 
-
-@media screen and (max-width: 767px) {
-
+/* -- footer -- */
 .kb-row-layout-wrap.kb-row-layout-idblock-21_65ec87-c8 > .kt-row-column-wrap {
     grid-template-columns: repeat(2, minmax(0, 1fr));
 }
@@ -205,6 +206,11 @@ body {
 }
 
 
+/* Tablet - G / iPhones (portrait and landscape) ----- */
+
+@media screen and (max-width: 767px) {
+
+}
 
 
 /* Kindle Fire & Tablets ---------------- */
@@ -214,14 +220,14 @@ body {
 /* -- HOME -- */
 
 .home-hero .kt-row-column-wrap {
-    min-height: 322px;
+   min-height: 322px;
 }
-
+	
 .child-3 .kt-inside-inner-col {
-    min-height: 360px;
+   min-height: 360px;
 }
-
-/* -- Beauty Services > Color & Makeup > Color Analysis - Boxed Headline -- */
+	
+	/* -- Beauty Services > Color & Makeup > Color Analysis - Boxed Headline -- */
 .kb-row-layout-id2729_3440b3-01 > .kt-row-column-wrap {
     max-width: 33%;
 }
@@ -237,15 +243,15 @@ body {
 .home-hero .kt-row-column-wrap {
     min-height: 242px;
 }
-
+	
 .home-cta .kt-row-column-wrap {
     grid-template-columns: minmax(0, 1fr);
 }
-
+	
 .home-cta .kt-inside-inner-col {
     min-height: 0px;
 }
-
+	
 
 /* -- HEADS AND TEXT -- */
 h1 {
@@ -279,7 +285,6 @@ body {
 	font-size: 15px;
 }
 
-
 }
 
 
@@ -287,6 +292,11 @@ body {
 
 @media screen and (max-width: 425px) {
 
+/* -- HOME -- */
+
+.home-hero .kt-row-column-wrap {
+    min-height: 204px;
+}
 
 	
 }
@@ -304,5 +314,6 @@ body {
 
 
 }
+
 
 
