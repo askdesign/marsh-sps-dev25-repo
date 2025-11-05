@@ -339,6 +339,8 @@ h2.page-subtitle {
 
 @media screen and (max-width: 480px) {
 
+/* -- main page heads -- */
+
 h3.page-tagline {
 	padding: 0 4.25rem;
 }
@@ -373,6 +375,10 @@ h2.page-title {
 
 h2.page-subtitle {
 	font-size: var(--global-kb-font-size-xl, 3rem);
+}
+
+h3.page-tagline-long {
+    padding: 0px 4.25rem;
 }
 
 }
