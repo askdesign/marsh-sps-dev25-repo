@@ -285,6 +285,11 @@ body {
 	font-size: 15px;
 }
 
+/* -- Beauty Services > Color & Makeup > Color Analysis - Boxed Headline -- */
+.kb-row-layout-id2729_3440b3-01 > .kt-row-column-wrap {
+    max-width: 33%;
+}
+
 .kb-form-basic-style {
     font-size: .9375rem;
     line-height: 1.5;

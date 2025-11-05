@@ -359,7 +359,18 @@ h3.page-tagline-long {
 /* Mobile L - G (portrait) ----------------- */
 
 @media screen and (max-width: 425px) {
-	
+
+.colhd-overlap-image-wrap > .kt-row-column-wrap {
+	padding-right: 2rem !important;
+    padding-left: 2rem !important;
+}
+
+.tri-colhd-overlap-image-wrap .colhd-overlap-image-lft-1,
+.tri-colhd-overlap-image-wrap .colhd-overlap-image-rgt-2,
+.tri-col-to-one-image {
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
 	
 }
 
@@ -370,7 +381,7 @@ h3.page-tagline-long {
 /* -- main page heads -- */
 
 h2.page-title {
-	font-size: 75px;
+	font-size: 70px;
 }
 
 h2.page-subtitle {
