@@ -353,6 +353,12 @@ body {
 }
 
 
+/* -- HOME -- */
+
+.home-hero .kt-row-column-wrap {
+    min-height: 134px;
+}
+
 }
 
 
