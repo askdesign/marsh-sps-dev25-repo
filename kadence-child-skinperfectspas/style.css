@@ -146,6 +146,7 @@ h2.page-subtitle {
     line-height: 46px;
 }
 
+
 /* -- FOOTER -- */
 .site-container .site-middle-footer-inner-wrap {
     padding-bottom: 1.5rem;
@@ -247,11 +248,12 @@ h2.page-subtitle {
 h2.page-title {
 	font-size: 86px;
 }
-
+	
 h2.page-subtitle {
 	font-size: 46px;
     line-height: 40px;
 }
+
 
 /* -- SERVICES images -- */
 .colhd-overlap-image-wrap .colhd-overlap-image-lft {
@@ -339,7 +341,6 @@ h2.page-subtitle {
 
 @media screen and (max-width: 480px) {
 
-
 /* -- main page heads -- */
 
 h2.page-title {
@@ -350,7 +351,7 @@ h2.page-subtitle {
 	font-size: 31px;
     line-height: 27px;
 }
-
+	
 h3.page-tagline {
 	padding: 0 4.25rem;
 }

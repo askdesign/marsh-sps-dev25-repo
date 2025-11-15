@@ -197,6 +197,8 @@ body {
 .wp-block-image img.wp-image-734 {
     max-width: 242px;
 }
+
+
 	
 }
 
@@ -204,12 +206,11 @@ body {
 /* Tablet - G / iPhones (portrait and landscape) ----- */
 
 @media screen and (max-width: 767px) {
-
 /* -- footer -- */
 .kb-row-layout-wrap.kb-row-layout-idblock-21_65ec87-c8 > .kt-row-column-wrap {
     grid-template-columns: repeat(2, minmax(0, 1fr));
 }
-
+	
 }
 
 
@@ -227,7 +228,7 @@ body {
    min-height: 360px;
 }
 	
-/* -- Beauty Services > Color & Makeup > Color Analysis - Boxed Headline -- */
+	/* -- Beauty Services > Color & Makeup > Color Analysis - Boxed Headline -- */
 .kb-row-layout-id2729_3440b3-01 > .kt-row-column-wrap {
     max-width: 33%;
 }
@@ -287,9 +288,9 @@ body {
 
 /* -- Beauty Services > Color & Makeup > Color Analysis - Boxed Headline -- */
 .kb-row-layout-id2729_3440b3-01 > .kt-row-column-wrap {
-    max-width: 33%;
+    max-width: 50%;
 }
-
+	
 .kb-form-basic-style {
     font-size: .9375rem;
     line-height: 1.5;
@@ -307,12 +308,14 @@ body {
 .home-hero .kt-row-column-wrap {
     min-height: 204px;
 }
+
 	
 }
 
 /* Mobile M - G / iPhones ------------------ */
 
 @media screen and (max-width: 375px) {
+
 
 /* -- Logo -- */
 .site-branding a.brand img {
@@ -322,7 +325,6 @@ body {
 .wp-block-image img.wp-image-734 {
     max-width: 200px;
 }
-
 
 /* -- HOME -- */
 
@@ -336,7 +338,6 @@ body {
 	grid-template-columns: minmax(0, 1fr);
 	text-align: center;
 }
-
 }
 
 /* Mobile M - G / iPhones ------------------ */
@@ -359,7 +360,6 @@ body {
     min-height: 134px;
 }
 
+
 }
-
-
 
